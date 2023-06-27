@@ -9,7 +9,7 @@ import ExploreContainer from "../components/ExploreContainer";
 import "./Tab1.css";
 import { Link } from "react-router-dom";
 
-const Tab1: React.FC = () => {
+const Tab1Community: React.FC = () => {
   return (
     <IonPage>
       <IonHeader>
@@ -24,12 +24,12 @@ const Tab1: React.FC = () => {
           </IonToolbar>
         </IonHeader>
 
-        <Link to="/tab1/firstcommunity" className="container">
-          to /tab1/firstcommunity
+        <Link to="/tab1/firstcommunity/posts" className="container">
+          to /tab1/firstcommunity/posts
         </Link>
       </IonContent>
     </IonPage>
   );
 };
 
-export default Tab1;
+export default Tab1Community;
