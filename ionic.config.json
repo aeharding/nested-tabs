@@ -1,0 +1,7 @@
+{
+  "name": "nested-tabs",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
